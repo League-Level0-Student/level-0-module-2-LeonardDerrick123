@@ -4,6 +4,7 @@ import java.util.Random;
 
 import javax.swing.JOptionPane;
 
+public class lotteryNumbers {
 public static void main(String[] args) {
 	Random random = new Random();
 	int r1 = random.nextInt(9);
