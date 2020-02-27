@@ -4,10 +4,10 @@ import javax.swing.JOptionPane;
 
 public class Rollercoaster {
 public static void main(String[] args) {
-String quantity = JOptionPane.showInputDialog("How tall are you");
+String quantity = JOptionPane.showInputDialog("How old are you");
  int num = Integer.parseInt(quantity);
- if (num>1001) {JOptionPane.showMessageDialog(null,"I guess your tall enaugh? You must be a giant");}
- else {JOptionPane.showMessageDialog(null,"YOU ARE TOO SHORT GET OUT AND NEVER COME BACK");}
+ if (num>200) {JOptionPane.showMessageDialog(null,"YOU ARE TOO YOUNG GET OUT AND NEVER COME BACK");}
+ else {JOptionPane.showMessageDialog(null,"I guess your old enaugh? You must be a super senior");}
 
 }
 }
